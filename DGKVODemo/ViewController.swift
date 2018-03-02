@@ -21,8 +21,9 @@ class ViewController: UIViewController {
         scrollView?.contentSize = CGSize(width: self.view.frame.size.width - 40, height: 800)
         self.view.addSubview(scrollView!)
         weak var ws = self
+        let str = "滑动了"
         scrollView?.observe(self, keyPath: "contentOffset", closure: {
-            print("\(ws!.scrollView!.contentOffset.y)")
+            print(str + "\(ws!.scrollView!.contentOffset.y)")
         })
     }
 
