@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F72B7AF32049404A001A1766 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72B7AF22049404A001A1766 /* AppDelegate.swift */; };
+		F72B7AF52049404A001A1766 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72B7AF42049404A001A1766 /* ViewController.swift */; };
+		F72B7AF82049404A001A1766 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F72B7AF62049404A001A1766 /* Main.storyboard */; };
+		F72B7AFA2049404A001A1766 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F72B7AF92049404A001A1766 /* Assets.xcassets */; };
+		F72B7AFD2049404A001A1766 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F72B7AFB2049404A001A1766 /* LaunchScreen.storyboard */; };
+		F72B7B082049404A001A1766 /* DGKVODemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72B7B072049404A001A1766 /* DGKVODemoTests.swift */; };
+		F72B7B132049404B001A1766 /* DGKVODemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72B7B122049404B001A1766 /* DGKVODemoUITests.swift */; };
+		F72B7B21204940E0001A1766 /* DGKVOTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72B7B20204940E0001A1766 /* DGKVOTool.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F72B7B042049404A001A1766 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F72B7AE72049404A001A1766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F72B7AEE2049404A001A1766;
+			remoteInfo = DGKVODemo;
+		};
+		F72B7B0F2049404B001A1766 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F72B7AE72049404A001A1766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F72B7AEE2049404A001A1766;
+			remoteInfo = DGKVODemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F72B7AEF2049404A001A1766 /* DGKVODemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DGKVODemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72B7AF22049404A001A1766 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F72B7AF42049404A001A1766 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F72B7AF72049404A001A1766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F72B7AF92049404A001A1766 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F72B7AFC2049404A001A1766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F72B7AFE2049404A001A1766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F72B7B032049404A001A1766 /* DGKVODemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DGKVODemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72B7B072049404A001A1766 /* DGKVODemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DGKVODemoTests.swift; sourceTree = "<group>"; };
+		F72B7B092049404A001A1766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F72B7B0E2049404B001A1766 /* DGKVODemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DGKVODemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72B7B122049404B001A1766 /* DGKVODemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DGKVODemoUITests.swift; sourceTree = "<group>"; };
+		F72B7B142049404B001A1766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F72B7B20204940E0001A1766 /* DGKVOTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DGKVOTool.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F72B7AEC2049404A001A1766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72B7B002049404A001A1766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72B7B0B2049404B001A1766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F72B7AE62049404A001A1766 = {
+			isa = PBXGroup;
+			children = (
+				F72B7AF12049404A001A1766 /* DGKVODemo */,
+				F72B7B062049404A001A1766 /* DGKVODemoTests */,
+				F72B7B112049404B001A1766 /* DGKVODemoUITests */,
+				F72B7AF02049404A001A1766 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F72B7AF02049404A001A1766 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F72B7AEF2049404A001A1766 /* DGKVODemo.app */,
+				F72B7B032049404A001A1766 /* DGKVODemoTests.xctest */,
+				F72B7B0E2049404B001A1766 /* DGKVODemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F72B7AF12049404A001A1766 /* DGKVODemo */ = {
+			isa = PBXGroup;
+			children = (
+				F72B7AF22049404A001A1766 /* AppDelegate.swift */,
+				F72B7AF42049404A001A1766 /* ViewController.swift */,
+				F72B7B20204940E0001A1766 /* DGKVOTool.swift */,
+				F72B7AF62049404A001A1766 /* Main.storyboard */,
+				F72B7AF92049404A001A1766 /* Assets.xcassets */,
+				F72B7AFB2049404A001A1766 /* LaunchScreen.storyboard */,
+				F72B7AFE2049404A001A1766 /* Info.plist */,
+			);
+			path = DGKVODemo;
+			sourceTree = "<group>";
+		};
+		F72B7B062049404A001A1766 /* DGKVODemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F72B7B072049404A001A1766 /* DGKVODemoTests.swift */,
+				F72B7B092049404A001A1766 /* Info.plist */,
+			);
+			path = DGKVODemoTests;
+			sourceTree = "<group>";
+		};
+		F72B7B112049404B001A1766 /* DGKVODemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F72B7B122049404B001A1766 /* DGKVODemoUITests.swift */,
+				F72B7B142049404B001A1766 /* Info.plist */,
+			);
+			path = DGKVODemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F72B7AEE2049404A001A1766 /* DGKVODemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F72B7B172049404B001A1766 /* Build configuration list for PBXNativeTarget "DGKVODemo" */;
+			buildPhases = (
+				F72B7AEB2049404A001A1766 /* Sources */,
+				F72B7AEC2049404A001A1766 /* Frameworks */,
+				F72B7AED2049404A001A1766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DGKVODemo;
+			productName = DGKVODemo;
+			productReference = F72B7AEF2049404A001A1766 /* DGKVODemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F72B7B022049404A001A1766 /* DGKVODemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F72B7B1A2049404B001A1766 /* Build configuration list for PBXNativeTarget "DGKVODemoTests" */;
+			buildPhases = (
+				F72B7AFF2049404A001A1766 /* Sources */,
+				F72B7B002049404A001A1766 /* Frameworks */,
+				F72B7B012049404A001A1766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F72B7B052049404A001A1766 /* PBXTargetDependency */,
+			);
+			name = DGKVODemoTests;
+			productName = DGKVODemoTests;
+			productReference = F72B7B032049404A001A1766 /* DGKVODemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F72B7B0D2049404B001A1766 /* DGKVODemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F72B7B1D2049404B001A1766 /* Build configuration list for PBXNativeTarget "DGKVODemoUITests" */;
+			buildPhases = (
+				F72B7B0A2049404B001A1766 /* Sources */,
+				F72B7B0B2049404B001A1766 /* Frameworks */,
+				F72B7B0C2049404B001A1766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F72B7B102049404B001A1766 /* PBXTargetDependency */,
+			);
+			name = DGKVODemoUITests;
+			productName = DGKVODemoUITests;
+			productReference = F72B7B0E2049404B001A1766 /* DGKVODemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F72B7AE72049404A001A1766 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = dudongge;
+				TargetAttributes = {
+					F72B7AEE2049404A001A1766 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F72B7B022049404A001A1766 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F72B7AEE2049404A001A1766;
+					};
+					F72B7B0D2049404B001A1766 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F72B7AEE2049404A001A1766;
+					};
+				};
+			};
+			buildConfigurationList = F72B7AEA2049404A001A1766 /* Build configuration list for PBXProject "DGKVODemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F72B7AE62049404A001A1766;
+			productRefGroup = F72B7AF02049404A001A1766 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F72B7AEE2049404A001A1766 /* DGKVODemo */,
+				F72B7B022049404A001A1766 /* DGKVODemoTests */,
+				F72B7B0D2049404B001A1766 /* DGKVODemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F72B7AED2049404A001A1766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72B7AFD2049404A001A1766 /* LaunchScreen.storyboard in Resources */,
+				F72B7AFA2049404A001A1766 /* Assets.xcassets in Resources */,
+				F72B7AF82049404A001A1766 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72B7B012049404A001A1766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72B7B0C2049404B001A1766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F72B7AEB2049404A001A1766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72B7B21204940E0001A1766 /* DGKVOTool.swift in Sources */,
+				F72B7AF52049404A001A1766 /* ViewController.swift in Sources */,
+				F72B7AF32049404A001A1766 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72B7AFF2049404A001A1766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72B7B082049404A001A1766 /* DGKVODemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72B7B0A2049404B001A1766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72B7B132049404B001A1766 /* DGKVODemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F72B7B052049404A001A1766 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F72B7AEE2049404A001A1766 /* DGKVODemo */;
+			targetProxy = F72B7B042049404A001A1766 /* PBXContainerItemProxy */;
+		};
+		F72B7B102049404B001A1766 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F72B7AEE2049404A001A1766 /* DGKVODemo */;
+			targetProxy = F72B7B0F2049404B001A1766 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F72B7AF62049404A001A1766 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F72B7AF72049404A001A1766 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F72B7AFB2049404A001A1766 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F72B7AFC2049404A001A1766 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F72B7B152049404B001A1766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F72B7B162049404B001A1766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F72B7B182049404B001A1766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FPUQV8RGB;
+				INFOPLIST_FILE = DGKVODemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2345.DGKVODemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F72B7B192049404B001A1766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FPUQV8RGB;
+				INFOPLIST_FILE = DGKVODemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2345.DGKVODemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F72B7B1B2049404B001A1766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FPUQV8RGB;
+				INFOPLIST_FILE = DGKVODemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2345.DGKVODemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DGKVODemo.app/DGKVODemo";
+			};
+			name = Debug;
+		};
+		F72B7B1C2049404B001A1766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FPUQV8RGB;
+				INFOPLIST_FILE = DGKVODemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2345.DGKVODemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DGKVODemo.app/DGKVODemo";
+			};
+			name = Release;
+		};
+		F72B7B1E2049404B001A1766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FPUQV8RGB;
+				INFOPLIST_FILE = DGKVODemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2345.DGKVODemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DGKVODemo;
+			};
+			name = Debug;
+		};
+		F72B7B1F2049404B001A1766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FPUQV8RGB;
+				INFOPLIST_FILE = DGKVODemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2345.DGKVODemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DGKVODemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F72B7AEA2049404A001A1766 /* Build configuration list for PBXProject "DGKVODemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72B7B152049404B001A1766 /* Debug */,
+				F72B7B162049404B001A1766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F72B7B172049404B001A1766 /* Build configuration list for PBXNativeTarget "DGKVODemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72B7B182049404B001A1766 /* Debug */,
+				F72B7B192049404B001A1766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F72B7B1A2049404B001A1766 /* Build configuration list for PBXNativeTarget "DGKVODemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72B7B1B2049404B001A1766 /* Debug */,
+				F72B7B1C2049404B001A1766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F72B7B1D2049404B001A1766 /* Build configuration list for PBXNativeTarget "DGKVODemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72B7B1E2049404B001A1766 /* Debug */,
+				F72B7B1F2049404B001A1766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F72B7AE72049404A001A1766 /* Project object */;
+}
