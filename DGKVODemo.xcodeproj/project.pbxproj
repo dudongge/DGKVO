@@ -14,7 +14,9 @@
 		F72B7AFD2049404A001A1766 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F72B7AFB2049404A001A1766 /* LaunchScreen.storyboard */; };
 		F72B7B082049404A001A1766 /* DGKVODemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72B7B072049404A001A1766 /* DGKVODemoTests.swift */; };
 		F72B7B132049404B001A1766 /* DGKVODemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72B7B122049404B001A1766 /* DGKVODemoUITests.swift */; };
-		F72B7B21204940E0001A1766 /* DGKVOTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72B7B20204940E0001A1766 /* DGKVOTool.swift */; };
+		F7C11C4020497335000C8DB0 /* DGKVOTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C11C3F20497335000C8DB0 /* DGKVOTool.swift */; };
+		F7C11C4120497335000C8DB0 /* DGKVOTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C11C3F20497335000C8DB0 /* DGKVOTool.swift */; };
+		F7C11C4220497335000C8DB0 /* DGKVOTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C11C3F20497335000C8DB0 /* DGKVOTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +50,7 @@
 		F72B7B0E2049404B001A1766 /* DGKVODemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DGKVODemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F72B7B122049404B001A1766 /* DGKVODemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DGKVODemoUITests.swift; sourceTree = "<group>"; };
 		F72B7B142049404B001A1766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F72B7B20204940E0001A1766 /* DGKVOTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DGKVOTool.swift; sourceTree = "<group>"; };
+		F7C11C3F20497335000C8DB0 /* DGKVOTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGKVOTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,9 @@
 		F72B7AF12049404A001A1766 /* DGKVODemo */ = {
 			isa = PBXGroup;
 			children = (
+				F7C11C3E20497313000C8DB0 /* DGKVOTool */,
 				F72B7AF22049404A001A1766 /* AppDelegate.swift */,
 				F72B7AF42049404A001A1766 /* ViewController.swift */,
-				F72B7B20204940E0001A1766 /* DGKVOTool.swift */,
 				F72B7AF62049404A001A1766 /* Main.storyboard */,
 				F72B7AF92049404A001A1766 /* Assets.xcassets */,
 				F72B7AFB2049404A001A1766 /* LaunchScreen.storyboard */,
@@ -126,6 +128,14 @@
 				F72B7B142049404B001A1766 /* Info.plist */,
 			);
 			path = DGKVODemoUITests;
+			sourceTree = "<group>";
+		};
+		F7C11C3E20497313000C8DB0 /* DGKVOTool */ = {
+			isa = PBXGroup;
+			children = (
+				F7C11C3F20497335000C8DB0 /* DGKVOTool.swift */,
+			);
+			path = DGKVOTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F72B7B21204940E0001A1766 /* DGKVOTool.swift in Sources */,
+				F7C11C4020497335000C8DB0 /* DGKVOTool.swift in Sources */,
 				F72B7AF52049404A001A1766 /* ViewController.swift in Sources */,
 				F72B7AF32049404A001A1766 /* AppDelegate.swift in Sources */,
 			);
@@ -273,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F72B7B082049404A001A1766 /* DGKVODemoTests.swift in Sources */,
+				F7C11C4120497335000C8DB0 /* DGKVOTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F72B7B132049404B001A1766 /* DGKVODemoUITests.swift in Sources */,
+				F7C11C4220497335000C8DB0 /* DGKVOTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
