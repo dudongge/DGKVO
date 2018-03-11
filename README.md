@@ -1,7 +1,7 @@
-# DGKVO
+## DGKVO
 好用的kvo封装工具，一句代码，即可搞定，减少代码的耦合
-使用方法：
-将工具类 DGKVOTool 文件拖入即可（目前使用的是最新的swift语言）。
+## 使用方法：
+将工具类 DGKVOTool 文件拖入即可（目前使用的是最新的swift4.0语言）。
 将使用观察的地方调用即可。
 
        class ViewController: UIViewController  {
@@ -33,6 +33,18 @@
                                       滑动了398.0
                                       滑动了398.0
         }
+        
+## 使用pod
+     iOS 8.0+, Swift 4.0+(Compatiable)
+        使用pod 导入
+        ``` ruby
+        pod 'DGKVO', '~> 1.0.0'
+        ```
  当使用完毕之后记得移除。
         
         scrollView?.unObserve(self, keyPath: "contentOffset")
+        
+        
+ ## License
+        
+        DGKVO is available under the MIT license. See the LICENSE file for more info.
